@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{100, 35}, {232, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label",
+          "frame" : "{{275, 272}, {150, 32}}",
+          "uuid" : "0AD6D46B-AC52-49C5-B50E-02EC5E4E4629",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter diameter of pizza",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{100, 149}, {232, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{310, 272}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "D6061C4F-7AE9-46D1-9816-07D893A4024B",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{100, 267}, {232, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{275, 272}, {150, 32}}",
+          "uuid" : "C803996A-1B7B-4531-BE78-13D294994FDF",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{404, 35}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "diameter_textbox",
+          "frame" : "{{250, 272}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "29B9FE6F-9011-4160-834F-A2320A8FE96B",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {700, 576}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
